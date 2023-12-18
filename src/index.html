@@ -9,7 +9,7 @@
     <link 
       rel="preconnect" 
       href="https://fonts.gstatic.com" 
-      crossorigin="gvg"
+      crossorigin="use-credentials"
     >
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link 
@@ -19,11 +19,7 @@
     >
   </head>
   <body class="page__body">
-    <script 
-      type="text/javascript" 
-      src="scripts/main.js" 
-      defer
-    >
+    <script src="scripts/main.js" defer >
     </script>
 
     <header class="header page__section" id="header">
@@ -107,22 +103,18 @@
           <ul class="menu__list">
             <li class="menu__item">
               <a href="#shop" class="menu__link">Shop</a>
+              <div class="menu__line"></div>
             </li>
-    
-            <div class="menu__line"></div>
-    
+          
             <li class="menu__item">
               <a href="#contact-us" class="menu__link">Contact</a>
+              <div class="menu__line"></div>
             </li>
-    
-            <div class="menu__line"></div>
-    
+          
             <li class="menu__item">
               <a href="#about-brand" class="menu__link">About</a>
+              <div class="menu__line"></div>
             </li>
-    
-            <div class="menu__line"></div>
-    
           </ul>
         </div>
       </div>
@@ -196,7 +188,7 @@
       
             <div class="grid__item--tablet-4-6 grid__item--desktop-7-11 grid__item--end">
               <img 
-                src="./images/about/Снимок экрана 2019-09-04 в 19.23.png" 
+                src="./images/about/Снимокэкрана2019-09-04в19.23.png" 
                 alt="Candle" 
                 class="about-brand__img"
               >
@@ -204,7 +196,7 @@
       
             <div class="grid__item--tablet-4-6 grid__item--desktop-12-12 grid__item--end">
               <img 
-                src="./images/about/Снимок экрана 2019-09-04 в 19.24.png" 
+                src="./images/about/Снимокэкрана2019-09-04в19.24.png" 
                 alt="Candle" 
                 class="about-brand__img--half"
               >
@@ -365,80 +357,7 @@
         </div>
       </section>
 
-      <section class="shipping page__body--with-menu" id="shipping">
-        <div class="container">
-          <div class="shipping__content">
-            <a href="#menu" class="nav__menu-opener icon"></a>
-            <a href="#" class="nav__logo"></a>
-            <a href="#shop" class="nav__shopping icon"></a>
-          </div>
-
-          <p class="shipping__title">checkout</p>
-      
-          <div class="shipping__form">
-            <p class="shipping__form--title">shipping</p>
-            <form 
-              method="get"
-              action="#" 
-              class="shipping__forms form-js"
-            >
-              <input 
-                name="name" 
-                type="text" 
-                placeholder="full name" 
-                class="shipping__field" 
-                required
-              >
-
-              <input 
-                name="email" 
-                type="email" 
-                placeholder="E-Mail" 
-                class=" shipping__field" 
-                required
-              >
-
-              <input 
-                name="country" 
-                type="country" 
-                placeholder="Country" 
-                class="shipping__field" 
-                required
-              >
-
-              <input 
-                name="city" 
-                type="city" 
-                placeholder="city" 
-                class="shipping__field" 
-                required
-              >
-
-              <input 
-                name="Postal code" 
-                type="Postal code" 
-                placeholder="Postal code" 
-                class="shipping__field" 
-                required
-              >
-
-              <input 
-                name="address" 
-                type="address" 
-                placeholder="address" 
-                class="shipping__field" 
-                required
-              >
-
-              <a class="button button__link" href="#payment">
-                next
-              </a>
-            </form>
-          </div>
-        </div>
-      </section>
-
-      <section class="payment page__body--with-menu" id="payment">
+      <div class="payment page__body--with-menu" id="payment">
         <div class="container">
           <div class="payment__content">
             <a href="#menu" class="nav__menu-opener icon"></a>
@@ -480,9 +399,9 @@
           </div>
           
         </div>
-      </section>
+      </div>
 
-      <section class="confirmation page__body--with-menu" id="confirmation">
+      <div class="confirmation page__body--with-menu" id="confirmation">
         <div class="container">
           <div class="confirmation__content">
             <a href="#menu" class="nav__menu-opener icon"></a>
@@ -511,7 +430,7 @@
           </div>
       
         </div>
-      </section>
+      </div>
 
       <section class="page__section creators" id="creators">
         <div class="container">
@@ -641,13 +560,13 @@
         </div>
       </section>
 
-      <section class="page__section benefits">
+      <div class="page__section benefits">
         <div class="container">
           <div class="grid">
             <div class="grid__item--tablet-1-2 grid__item--desktop-1-4">
               <div class="benefits__item">
                 <img 
-                  src="./images/переваги/Group 10.svg" 
+                  src="./images/переваги/Group10.svg" 
                   alt="icon1" 
                   class="benefits__img"
                 >
@@ -660,7 +579,7 @@
             <div class="grid__item--tablet-3-4 grid__item--desktop-5-8">
               <div class="benefits__item">
                 <img 
-                  src="./images/переваги/Group 11.svg" 
+                  src="./images/переваги/Group11.svg" 
                   alt="icon2" 
                   class="benefits__img"
                 >
@@ -674,7 +593,7 @@
             <div class="grid__item--tablet-5-6 grid__item--desktop-9-12">
               <div class="benefits__item">
                 <img 
-                  src="./images/переваги/Group 9.svg" 
+                  src="./images/переваги/Group9.svg" 
                   alt="icon3" 
                   class="benefits__img"
                 >
@@ -685,7 +604,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
       <section class="page__section contact-us" id="contact-us">
         <div class="container">
@@ -738,7 +657,8 @@
                   class="
                           contact-us__field
                           contact-us__field--last" 
-                  required></input>
+                  required
+                  >
       
                 <button class="button contact-us__button">
                   Send a message
