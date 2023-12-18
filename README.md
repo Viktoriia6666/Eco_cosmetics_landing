@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Eco cosmetics
 "Welcome to our project dedicated to natural cosmetics for the face and hair! We offer environmentally friendly and organic products, created with love for nature and your beauty. In our assortment, you will find the best care for your facial skin and hair, made from the finest ingredients. The selection of products you seek for your beautiful well-being and natural radiance is now at your fingertips.
 
@@ -10,3 +11,9 @@ HTML and CSS assist us in creating the structure and design of our web interface
 ## Figma design  (https://www.figma.com/file/Fz588JKGuPS2Bk21De4KE5/Brand-of-eco-cosmetics-_FE-students?type=design&node-id=21779-545&mode=design&t=vT0cFdNFJD177TjT-0)
 
    ## - [DEMO LINK](https://Viktoriia6666.github.io/Eco_cosmetics_landing/)
+=======
+# Base layout template with Gulp, SCSS and Stylelint
+1. Create a repo using this template
+1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
+    - [DEMO LINK](https://Viktoriia6666.github.io/Eco_cosmetics_landing/)
+>>>>>>> b8940af14658636c53eabf87140db41ac92eef9e
